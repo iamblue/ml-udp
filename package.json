@@ -1,0 +1,13 @@
+{
+  "name": "ml-udp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "src": ["./src/ml-udp.c"],
+  "supportIC":[ "mt7687" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iamblue",
+  "license": "ISC"
+}
