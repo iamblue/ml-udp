@@ -1,13 +1,13 @@
 {
   "name": "ml-udp",
   "version": "0.0.1",
-  "description": "",
+  "description": "The udp package for Microlattice.js",
   "main": "index.js",
   "src": ["./src/ml-udp.c"],
   "supportIC":[ "mt7687" ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "iamblue",
-  "license": "ISC"
+  "license": "Apache2"
 }
