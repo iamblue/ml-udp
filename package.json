@@ -1,10 +1,14 @@
 {
   "name": "ml-udp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The udp package for Microlattice.js",
   "main": "index.js",
-  "src": ["./src/ml-udp.c"],
-  "supportIC":[ "mt7687" ],
+  "src": [
+    "./src/ml-udp.c"
+  ],
+  "supportIC": [
+    "mt7687"
+  ],
   "scripts": {
     "test": ""
   },
