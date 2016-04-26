@@ -18,7 +18,7 @@
 
 char udp_rcv_buf_old[100] = {0};
 
-DELCARE_HANDLER(udpClient) {
+DELCARE_HANDLER(__udpClient) {
   if (args_cnt == 2 && args_p[0].type == JERRY_API_DATA_TYPE_OBJECT) {
     /* ip */
     int ip_req_sz = jerry_api_string_to_char_buffer(args_p[0].v_string, NULL, 0);
@@ -111,5 +111,5 @@ idle:
 }
 
 void ml_udp_init(void) {
-  REGISTER_HANDLER(udpClient);
+  REGISTER_HANDLER(__udpClient);
 }
